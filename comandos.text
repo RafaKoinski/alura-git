@@ -1,0 +1,10 @@
+git init = Inicia um repositório git naquela pasta;
+git statys = Mostra algumas informações do status do repositório;
+git add = Adiciona o arquivo ao repositório do git, podemos escrever o nome do arquivo ou apenas colocar um "." e ele adiciona todos os arquivos;
+git config = podemos alterar as configurações do repositório, sendo "--local" para este repositório apenas ou "--global" que são para todos do PC;
+git branch -m master main = muda o nome do repositório de master para main.
+git commit = Salva as alterações feitas no repositório. "-m" para adicionar uma mensagem ou titulo no save;
+git log = Mostra histórico de alterações no repositório;
+git log -p = Mostra histórico de alterações no repositório com mais detalhes;
+git log --online = Mostra histórico de alterações no repositório em uma linha;
+git log cheatsheet = Site para mostrar histórico de alterações no repositório personalizado;
