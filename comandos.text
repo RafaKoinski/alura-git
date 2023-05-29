@@ -5,6 +5,6 @@ git config = podemos alterar as configurações do repositório, sendo "--local"
 git branch -m master main = muda o nome do repositório de master para main.
 git commit = Salva as alterações feitas no repositório. "-m" para adicionar uma mensagem ou titulo no save;
 git log = Mostra histórico de alterações no repositório;
-git log -p = Mostra histórico de alterações no repositório com mais detalhes;
+git log -p = Mostra histórico de alterações no repositório com mais detalhes, podemos usar as setas para rolar as informações e voltamos a linha de comando precionando o botão "q" do teclado;
 git log --online = Mostra histórico de alterações no repositório em uma linha;
 git log cheatsheet = Site para mostrar histórico de alterações no repositório personalizado;
