@@ -15,5 +15,11 @@ git branch = cria uma nova branch, ou seja, um novo ramo de trabalho;
 git checkout = Muda o ramo de atuação;
 git checkout -b <Nome da branch> = Cria uma nova branch e já muda de ramo de atuação;
 git merge <Nome da branch> = Traz os commits daquela branch;
-git rebase <Nome da branch> = Traz os commits daquela branch antes do último commit de sua branch atual; 
+git rebase <Nome da branch> = Traz os commits daquela branch antes do último commit de sua branch atual;
+
+rebase pode ser útil para "limpar" linhas do tempo de repositórios que se tornaram muito poluídas pelo excesso de merging e branching;
+Se você quer preservar o histórico completo do projeto, independente da complexidade, use sempre merge;
+merge é mais indicado para trabalhos com branches compartilhadas, onde há várias pessoas envolvidas alterando diversas branches;
+rebase é mais indicado para projetos pessoais, times pequenos ou projetos mais simples.
+
 Sempre que fazemos uma alteração e queremos salvar, devemos primeiro adicionar e depois commitar;
