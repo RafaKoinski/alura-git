@@ -1,4 +1,5 @@
 git init = Inicia um repositório git naquela pasta;
+git init --bare = Indica que o repositório é puro, usado (apenas para controle de versões)
 git statys = Mostra algumas informações do status do repositório;
 git add = Adiciona o arquivo ao repositório do git, podemos escrever o nome do arquivo ou apenas colocar um "." e ele adiciona todos os arquivos;
 git config = podemos alterar as configurações do repositório, sendo "--local" para este repositório apenas ou "--global" que são para todos do PC;
